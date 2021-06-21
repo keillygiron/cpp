@@ -7,9 +7,6 @@ using namespace std;
 main()
 {
     int juego;
-
-    system("cls");
-    while(juego !=2) 
    {
     cout<<"**************"<<endl;
     cout<<"MENU DE JUEGOS"<<endl;
@@ -19,30 +16,27 @@ main()
     cout<<"2 - Snake"<<endl;
    cout<<"Ingrese un numero del menu para seleccionar un juego:"<<endl;
     cin>>juego;
-}
   
 switch (juego)
 {
 case 1:
    system("cls");
-   cout<<"StarShip"<<endl;
+   cout<<"seleccionaste StarShip"<<endl;
    system("pause");
+   system("cls");
  break;
  case 2:
    system("cls");
-   cout<<"Snake"<<endl;
+   cout<<" seleccionaste Snake"<<endl;
    system("pause");
+   system("cls");
+   break;
 
-default:
-   if(juego <1 || juego >2 )
-   {
-       cout<<"Este numero no es valido..."<<endl;
    
-    }
-    break;
+    
 }  
-  starShip();
-    snake();
+  //starShip();
+// snake();
 
     return 0;
 }
