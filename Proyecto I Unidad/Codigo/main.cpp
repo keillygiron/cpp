@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
     cout<<"1 - Starship"<<endl;
     cout<<"2 - Snake"<<endl;
    
-   cout<<"Ingrese un numero del menu para seleccionar un juego:"<<endl;
+   cout<<"Ingrese un numero del menu para seleccionar un juego:"<<endl; 
     cin>>juego;
 
     switch (juego)
